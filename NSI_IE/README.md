@@ -1,1 +1,2 @@
-This is the initial README file for each team...
+Rshinyapp.R produces the shiny app displaying bareland parcels and NDVI time series.
+
