@@ -39,7 +39,7 @@ ui <- navbarPage(
   "NDVI Analysis",
   theme = shinytheme("darkly"),
   
-  # First Tab - Ireland Map
+  # First Tab - Irish Map
   tabPanel("Ireland Map",
            tags$style(HTML("
         #map_ire { position: absolute; top: 50px; bottom: 0; width: 100%; }
@@ -58,7 +58,7 @@ ui <- navbarPage(
   
   
   
-  # Second Tab - France Map
+  # Second Tab - French Map
   tabPanel("France Map",
            leafletOutput("map_fr", height = "600px")
   ),
